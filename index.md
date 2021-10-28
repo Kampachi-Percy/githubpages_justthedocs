@@ -5,18 +5,10 @@ nav_order: 1
 ---
 
 
-# uouo
+# 数テロ改
 
-this is top page
+毎週の数テロを掲載しているページ
 
-## uuuo
+- [数テロについて](#)
 
-list
-
-日本語の表記が上手にできるといいな
-
-$a$, $b$, $c$
-
-別行建て
-
-$$ax^2+bx+c=\frac{\sqrt{3}}{\sin \theta}$$
+## 最近の問題
