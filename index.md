@@ -13,4 +13,4 @@ nav_order: 1
 
 ## 最近の問題
 
-<a href="{{site.url}}{{site.baseurl}}{{site.docs[0].url}}">{{site.posts[0].title}}</a>
+<a href="{{site.url}}{{site.baseurl}}{{site.related_posts[0].url}}">{{site.related_posts[0].title}}</a>
