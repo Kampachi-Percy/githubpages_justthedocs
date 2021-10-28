@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   {% unless site.plugins contains "jekyll-seo-tag" %}
-    <title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title == "TopPage" %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     {% if page.description %}
       <meta name="Description" content="{{ page.description }}">
