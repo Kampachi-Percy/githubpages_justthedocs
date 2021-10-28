@@ -13,6 +13,4 @@ nav_order: 1
 
 ## 最近の問題
 
-<a href="{{site.url}}{{site.baseurl}}{{site.pages[0].url}}">{{site.pages[0].title}}</a>
-
-{{site.posts}}
+- 
