@@ -12,3 +12,5 @@ nav_order: 1
 - [数テロについて](#)
 
 ## 最近の問題
+
+<a href="{{site.url}}{{site.baseurl}}{{site.posts[0].url}}">{{site.posts[0].title}}</a>
