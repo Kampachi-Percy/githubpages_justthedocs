@@ -16,15 +16,15 @@
 
 
   {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+    <!-- <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script> -->
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.stemmer.support.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.ja.js' | relative_url }}"></script>
   {% endif %}
   <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="lunr.js"></script> <!-- lunr.js library -->
-  <script src="lunr.stemmer.support.js"></script>
-  <script src="lunr.ja.js"></script> <!-- or any other language you want -->
 
 
 
