@@ -84,7 +84,7 @@ function initSearch() {
         {%- if site.search.rel_url != false %}
         this.field('relUrl');
         {%- endif %}
-        // this.use(lunr.ja);
+        this.use(lunr.ja);
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
